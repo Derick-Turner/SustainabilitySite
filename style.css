@@ -1,0 +1,100 @@
+body {
+  background-color: #006666;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+  color: #006666;
+  /* #006666 Slightly lighter shade, stands out more with black*/
+  /* #00b359 Matches the bright green of the active page*/
+}
+
+h3 {
+  color: #00b359;
+}
+
+img {
+  padding: 40px;
+}
+
+div {
+  background-color: white;
+  /* height: auto; */
+  width: 90%;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 90%;
+  margin-bottom: 10px;
+  /* position: sticky; Clashes with Dropdowns, must investigate.*/
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+footer {
+  background-color: white;
+  margin: auto;
+  width: 90%;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.active {
+  background-color: #00b359;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #cccccc;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+noscript {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
