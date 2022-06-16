@@ -1,1 +1,0 @@
-Move the Commitment Section to the top of index. It needs to be the first thing seen.
